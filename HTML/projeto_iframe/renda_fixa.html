@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Renda Fixa</title>
+        <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAclBMVEX////vv07vvknuujvvvUfuvEPuvEDuujj++/TvvUjuvUT9+O7zzoD56sv56Mf01ZP34bT67dT88+HyynT45Lz78Nv+/fn12aD23avww1399urvwVTwxWPz0Ib12Z/yzHnxyGz005Dzz4TwxWLttyrttiJ1SZ9SAAAQsElEQVR4nO1di5aquBKVBBLEFygiig/sPvP/v3ipPEgCCegR2z53Za81a2bUxlRS2fVIqpzNPDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDwmQ7xfl5uv3TGIMG1Awup8u1zT1bb49MgmwDbf1AQTkoQIBQoIzcOIYBrcDqvFp8f498gONcVRqEvWA0oIDr/S7afH+jwW6Y6SZFA4TcwIh/fVp4f8DE7lkUYPSicRErxcf3rgj6HIz/TRxessJcGX7NPDH8X+gh2rhxpqIRhj2vyDiWMK5jgo40/LMIT1N55bpYswqTfpan+Ki6KIF9vs5lzlhF5+Le+kyLo0jfLdemRZYLe2zunuVyprmUS24Ub0S2fJZgEXoIYr4pawmRR8/nUyppFNPkSCVPgti1V5OYdsE2JKqkEBmYz1/rMSmVgF1hGTo+D/1T3AjXV8imERXf4ab+dUWzdVhLh82VfjiT4jm5Lx+mHJBDbUyi/0wN5NA5dleAAR+gWezgol1rF9n+Ddkljp53Hg24fNY3Gh1oFx/VqjF+ULgHLyTwqYhdYNhghw/cK+PZ8G3n0ujNzYFxAFQII5/vv9Z2JOPrQbF0e7DobfMOfLaRaQg24+IeDasUZh3bwZV33+AdebGXwI+a3uqxvR988TjkNDuYDbXnwRElpf8+y0aDzvxbbxbwJXDGIH39o/iKJ2sCQ6Nu/ucXd40aY3wEW+o1ZD4wAtf1LAU+DUsmYPbs3lRbRWTNF43krf4tLqzTqALz8nYOakSdzY+ZO5gnjHI6didbhVfB9G57sMp9Kkv472IKXZjPVPCZg7tmCjSY0nGhsmMqqYeha5kZhqSAeHGx489Jw+UuYOEcPqZ/imdAqY3Ju3j/qAuW+z2NhoJcQ89NiavIuWwNP2L0Dh6QcEvLoNXdW8fdfmnxNgsaGO0AKRiu3Qi/FIeMrFFYyQ92c4Nm4BaaN2a22B50yp1mSIMfEOPpPqasE0wRlu0XcHxnd3cB42Iyu0t8Mz/IHh27B8GzEMPmIumT4xAc3cesrf/YyAAWkMxVLNPRNwUakX5oTurvlqv8/W5V0z+GyvrnQRUfNC7fQH3irikIBRY5EzNU5m+rcq+k3wxfCfF+lR2hzyNTNXMTr0jKoh4vsU9TqUP4pmBo9Gzf7atqoW4kM/BNrvxPtRQ5+zg/Zw2gQnS7dTR99FN+VQuBClQCrGPC/a/6UXJh8Y/SNCQX0RBj8ThoKAu3LTNPwyuIgBeY/RcBt6AG4+USl5IUkTiFXgZDLLlpTwzYfmEQ4OzHoLasaNihcaf8IiundiMwXvMP3ZoIDhRs/ysk0o12R+hOFk3x1XL6GbQs0brPkKOx7XB6qmF3A7HNHirT7pUQ4xvhgsMxoXS0IuJGs1c8Cf2mEGbqQfiq5YkDYp4uGMJyzaSSPSW0Oj6p3GaNitPr23IoKdX6gnwBxdh74zmjrSOA6Hq2AqDpoUCEsVCwvDaHRAds2zU7baQJD3ViZ0HlMbPG28uByJVSFqsr4B+0sLpxD4NJG2NtGtefoXvIB2xiIC1wx/56SWvxw7SKkcM55ACqk9r4jwJV1lWb5pWFaKScCjYf8Ni6h2IlifzfDWwNOdawzTaMCpL7UFdeFMcWoSqNzu8U8uYxRYihxmcH4x6Hg3dgQ3IaHGo6kGIEXbqS4shLQBWMsIfjOxhOYDi7JtDvyp+QzNF49kJJOviSQ8jybFYBva5juZtZuJasn5nNAmeJDGBViKeUOk+ciljTrIfmwjNt+bTiLgZjxbRHrZGYbwIBSwM5YlSg7aLgOPlnHNUnf8wF4M+KYck3io67FN2AytNnzSFuAGcAUIDet1Q2j5Z98e5cPaVWKiFspZ38DJ+ehXv36mcRoXMJjfHYNp/5wYAzkksOXSNkJEKc9awIy0CgNUsx5Vn3n9soTVA5nppNSNtSE4Z9jkYDwzpgFdH3B0k5tOZOGAsHYqIdfEV2NWSlibV7B85HwatoyFSuHlL/Yy7ViujEYY04sWjARyIpQNpPbN3QV97WBq1NQzwNxbCBcybVyGY/e5RXm/7nuep6ntOB41F/xrXjH8+wc2oSGKAbAhbIiQo7KiQ0+Nwz5T2WBwWR6REPXm73GMm3oloeXlZhE4XyYuJ7mzzxgnKwlPj0kYJH8fZox6ayMSFkLNnBJuLRK2LwGzPiQhCv5awge34d+vYdaXMH9+DfErWZvdQ1d9xvbh3KVGnSOY3j4sHlEi+trF20cEZFxqyRtpgjue3gmPQpNLi4e4NHrxjH8op6e+JDXsoYwH4WXuSWOH+9iZFdNzeMweovNrAqqE0hBMSx3ellzTwLxxpQvt89yN/0xdqHr71Ibodcf0Mn7YDvusDYDBnxQxEGrzEl2nhqOb/DGCMHNTujBJhn8kCQWD+dbWQ4uBVIoRWLKHsp0U+W9dL8OrmdyygkySjorHVQXrYQ9hrjUb5KYV1sIH7XETufF/gyqoVXM4uwbC2xQCdk6+7BLqYQ8E52I3NcJKFSBdEZWA5axgfwzJfxXzwjNHBHzF1Js4jK2iiiICrl5iV+onbmRnnDWoG0eQT0JyPhSvGeGwHXS6A5oxw69Yk02tuooPka+kKoSvckRFqm6lAlewv4WZUT4b287DRPOiqTcRjOmLns0FbRPGg2Uv2iA6xMdNmafXmqqhA1fws3HzvCky0lI29PT+JYzlMmDTtJwLxCm4JsArCFHU/IRJZFSz8ZPDuZgMLatMY21r2xDuphRwlG3A5rfkzxTvKtQQ4tOFs0KPHXBz/x5EUjwDVnXQ3k9/vpYO7/pKLZuwfmLrIrjpFjuuorLb7jyZB9qquYjg3gwm9V+K7O3YDBIq3htMv1Krjirwq2wX+iOUtQKyQF3LhEAueegL33KUfxtyMMBaa5cuIVMvM8koAArd1p2bURFmCbhUuXW5Eik5GP/bF/A996LrIa2BbaTWgHHoWVAhwvz+2h0O1hDEHmFEj7xcSFwoAuLXrR/kUwe8RTpNNr+P4wB7J1e4lamG2Ay5aG0MvvFdsy/vu2N1vm1ybhnXiE8aO+3UJOo8rIuJD0c1FEPpYVoYYTBslFj51HTTZ4bVWR5Lgb7qMQwphq5i4DcWCw2JCPOux8twZShWl75Celvrbtu2bMuF2P1m3TMk6dASTmvpnxERyGKjFgIFINBODRw1m+9e5qtsnR9uCZafRMz50m8jMV517sL3CjgoIhhpPa+DECjmwTAT84Qd5GuV0FEFW/KgrxgoeOoiUvz20ovi6GRUYBc9S44gjpptj0M3f/gl4rsuINh+ZwoKH0bGNwVqp12EnImRYuWsnocOGed0BwsYn3WPh52X7Rya8jYzYeLmWpQ56OlNX2MRFOYV7q18sy150fbavG0DZ54uHZ00XhqC8yY06dg1sPZ81vebAJNI5BnhqjDdcZN/2pkPg2yUI4WJ8M/VzaSuSAPuWBRmMBnJSyan9WH5HSRJWO3uqRjr4t7xV9kDHC0Lgp+4qC/hrCmBJYg7Jc0EOfokZMvuLX7mb35bnx2df7YMUb/Abc50rPsyAgmtuz0HitWm36CACWhPmWDXGeT74OAbFg/2TQqKcLS7pqtsz26yX46W+m4EIdhsaQ0l6SdqZR2bEVUdX0a9I2oRGotvc+FDVnp6s14eCz7TKmMbWC2j9GWs8ruBWXZ3ZxMQT3W763nYK7k5q+/tZewOIGbLY5vDJMLLD2EVWWmBV0PaWxFYgWtY98xWVop3n63IdxTkkxtQ+7Z+rJ6b8P4SNsUOP1uOz5AFVm6IWCZldRyVEZGQuT2ns4Wc6PJXtHQ7UBs1in4P2XC1b4iPuXiI5Zi8+i1dauKlbcc1kRFbgEVZ2eu2UUISUUiaW/pLJORnAonHsLfuuISIaqdTeiOYJPM2bYOixveuD+IAN7c05Al5wckvQmbdcQm+S1t9ajyZ3TGklEZV/XXI5etxaQkfQ3r/hS2/VmebjCGuSndMEFuL8hN6/zXthUzsb9aK3wQHm3V/yHF2OFta86GIHH7h+kmcrsRaHxMSaNhW5qv9drttXO90c0PY1lex5dZfjLx2NBVEIUu0YeZ7W8/bECH3X9Xhy4VFeXyurQfDnODbP9IaEnAq62cafDWWkVzWv8w6jCJebypZNDooHVjG8p9QTgvi1WHXbLwotDWjQ5AAp8FX+q9K12KRpdflN6EYkxYYU1RfDuv9v6aZg4hP+2y1Wq9XWbY9/WKL5+Hh4eHh4eHh4eHh4eHh4eHx21HEHGPvxvHgB82Pw4diF346UVf+YW2Q/7O/u2bvUij2+Y/3S/4zdCG94r9m8gcudfDnWkCj9pB1UmwBlvM9UXOI7X/Fq2ih5q5toWsvDmYQ1SS85cXQHeMEf0991r9GmB0g9d95WEJ5xRk5a1wLcarP65hHOn7Rae/0yQaYSf9C+cMStleAnTdixZV/0XtptIJ1yjo9VZ/Wr1B9XML2GrGjwk5WO2JOJaOV1lMWKCzbmzP9XgZPSChv9Dvuk8g6afHueC35dJVsejsX0j2NfkLClmywjfBFD7u2s46QkPS4tO2jjSbTU6OBSdJ58xkJZSV0aOt6IhdGGgIuIckWXexLeVhOJzrpMdvVdMnmGQlbsrHol6i2VcKrBg19CIWOprne0BayzK2je0pCSTb97SzJTLV4G5JQNCVwtBZ5FoJm6HZpHd1zErZk05198S0aCQ1KyPvZuE3rMxA0M1+2pffm6J6TsCWbyPyckFxv4DUoIS/4tnYWeRqV2tQH4XMYZPOkhLIFf2K6p0J79a4sgxLyZlqv9+GZtTQTsQvONrJ5UkJFNrrvIBxSg2MHJRTPncBctDTDnysbyGpf+6yELdnoo4u6NDMbkZAX7Tt7bT0BQQBYlInv+mTztIR7rbOEHG/SpZnZsISiY0/0eu2z7Csu5/vUJ5unJVS/RNKOt08zs0EJ98Li49fDREkzbUgn+14oKnxeQkk27QoIzegYWv6pJF2tOyjb3657vUmGpBmN98TsKbJ5XkIVRnGnS+zurisnSZd0oMqJe0b1abQxq/bauks2fyGhJJs5L/uR4+2446OxxSvdLwUkzRi3I+sO2YgmQ9juBPN35514XJINM3/CIe2FVKMSvt66XNJMbby67ZCN6GdG7Jv+wFgl7GafBNnAKsSdoOlRCdEEv5AkaabzJNleQLS9Ew2CHI0ueWFo1F2ftqFUrtzepyREuH49chI00/PfZb5IviHDY9szRGeX/m/8SbJBmZ1mlIQo7CEi9DZBqi3W+naZkB1kxLSLjWmLagupBv2YXuZsbN6MLiG6bLq4ptkkSWEZzlgY+dsgG9koKur9wu2+sjho8j2jYs32LcLiv62SO3MRwKxLNm0iDuFlvpWzG+9T2aVF988U9N9Ys37LoF86AaR+WSlSdhvlZKM6m6AI4yiojhWCS9BoaPzGL5lZk2ZvlrCXNbGOTvSzHmlc50j6qR4R9rbY75VQ0ozDjnfIZrhnrLPivO0zYaGZ2bsllDTjjE7MjNIJOYsskLuk3pmz4XirhLKXkdt374yuuNh/zhHh8wAX3hPUIHGkIt4qYTCHr0ZDP8tzidhHkExfnzakU7KFwtcMM+VjeIuEeb1jGDq/isVnaqXIWXljJ5xQV4Ep2l1XLxlm/gX1T3Y2eQjxCU5ST7+0VNLDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8Pj/xP/A1Nq1KUfL0WVAAAAAElFTkSuQmCC">
+    </head>
+
+    <body>
+        <header>
+            <h1>Renda Fixa</h1>
+
+            <img width="300px" height="168px" src="data:image/jpeg;base64,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">
+        </header>
+
+        <main>
+            <section>
+                <h2>Renda Fixa no Brasil</h2>
+
+                <p>
+                    Renda fixa é a classe de investimentos em que o investidor já sabe de antemão as condições de remuneração do título no momento da aplicação. Diferente da renda variável, onde os retornos são incertos, a renda fixa oferece previsibilidade: você aplica um valor e conhece a regra de cálculo que determinará o rendimento no futuro. Isso não significa que o valor final seja sempre fixo, mas que a forma de cálculo é previamente estabelecida.
+                </p>
+
+                <p>
+                    A lógica central é simples: você empresta dinheiro para uma instituição (banco, empresa ou governo) e, em troca, recebe juros como remuneração pelo capital investido. Essa previsibilidade torna a renda fixa a porta de entrada para a maioria dos investidores e um pilar fundamental na construção de qualquer carteira.
+                </p>
+            </section>
+
+            <section>
+                <h2>Tipos de Renda Fixa</h2>
+
+                <ol>
+                    <li>Títulos Públicos Federais (<a href="https://www.tesourodireto.com.br/" target="_blank">Tesouro Direto</a>)</li>
+
+                    <ul>
+                        <li>São emitidos pelo Governo Federal e acessados por meio do programa Tesouro Direto.</li>
+                        <li>Exemplos:</li>
+
+                        <ul>
+                            <li>Tesouro Selic (LFT): acompanha a taxa Selic, indicado para reserva de emergência.</li>
+                            <li>Tesouro Prefixado (LTN): tem taxa de juros fixa definida no momento da compra.</li>
+                            <li>Tesouro IPCA+ (NTN-B): remunera com uma taxa fixa + inflação (IPCA), garantindo ganho real de poder de compra.</li>
+                        </ul>
+                    </ul>
+
+                    <li>CDBs (Certificados de Depósito Bancário)</li>
+
+                    <ul>
+                        <li>Emitidos por bancos para captar recursos.</li>
+                        <li>Podem ser prefixados (taxa fixa), pós-fixados (atrelados ao CDI) ou híbridos (taxa fixa + inflação).</li>
+                        <li>Contam com cobertura do FGC (Fundo Garantidor de Créditos) até R$ 1 milhão por CPF e R$ 250 mil por instituição, o que aumenta a segurança.</li>
+                    </ul>
+
+                    <li>LCIs e LCAs (Letras de Crédito Imobiliário e do Agronegócio)</li>
+
+                    <ul>
+                        <li>São isentas de Imposto de Renda para pessoas físicas.</li>
+                        <li>Atreladas ao financiamento do setor imobiliário (LCI) ou do agronegócio (LCA).</li>
+                        <li>Também contam com a proteção do FGC.</li>
+                    </ul>
+
+                    <li>Debêntures</li>
+
+                    <ul>
+                        <li>Títulos emitidos por empresas para captar recursos.</li>
+                        <li>Oferecem retornos maiores que os bancários, mas não têm cobertura do FGC.</li>
+                        <li>Algumas debêntures são incentivadas (isentas de IR), geralmente ligadas a projetos de infraestrutura.</li>
+                    </ul>
+
+                    <li>CRI e CRA (Certificados de Recebíveis Imobiliários e do Agronegócio)</li>
+
+                    <ul>
+                        <li>São lastreados em recebíveis desses setores.</li>
+                        <li>Não contam com FGC, mas podem oferecer rentabilidades atrativas e também podem ser isentos de IR.</li>
+                    </ul>
+                </ol>
+            </section>
+
+            <section>
+                <h2>Características Importantes</h2>
+
+                <ul>
+                    <li>Liquidez: refere-se à facilidade de resgatar o dinheiro. Tesouro Selic, por exemplo, tem liquidez diária, enquanto CDBs podem ter prazos longos de carência.</li>
+                    <li>Risco: embora seja considerada mais segura, a renda fixa não é risco zero. Há riscos de crédito (calote da instituição emissora) e de mercado (variação no preço de títulos antes do vencimento).</li>
+                    <li>Tributação: a maioria dos investimentos em renda fixa sofre incidência de Imposto de Renda regressivo, variando de 22,5% (até 180 dias) a 15% (acima de 720 dias). Além disso, há IOF em resgates antes de 30 dias.</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Exemplos no Brasil</h2>
+
+                <ul>
+                    <li>Um Tesouro Selic é ideal para quem precisa de liquidez e segurança, funcionando quase como uma poupança turbinada.</li>
+                    <li>Um CDB de banco médio pode render mais que o CDI, mas exige atenção ao risco da instituição (mitigado pelo FGC até o limite).</li>
+                    <li>Uma LCA pode ser estratégica para quem busca isenção de IR e aceita prazos de carência maiores.</li>
+                    <li>Debêntures incentivadas de infraestrutura atraem investidores que querem diversificar e aproveitar a isenção de imposto.</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Conclusão</h2>
+
+                <p>
+                    A renda fixa é a base de qualquer carteira de investimentos, principalmente para construir uma reserva de emergência, equilibrar riscos e proteger o patrimônio contra oscilações do mercado. No Brasil, a variedade de opções — de títulos públicos a debêntures — permite que cada investidor monte uma estratégia personalizada, equilibrando segurança, rentabilidade e liquidez de acordo com seus objetivos.
+                </p>
+            </section>
+
+            <section>
+                <h3>Como gerar RENDA MENSAL na RENDA FIXA?</h3>
+
+                <p>
+                    (a estratégia definitiva) 👇
+                </p>
+
+                <iframe width="800px" height="450px" src="https://www.youtube.com/embed/j7fDhCESNJo" title="Vídeo sobre renda fixa" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+            </section>
+        </main>
+
+        <footer>
+            <h4>Feito orgulhosamente por Antônio, Fernando e Miguel.</h4>
+
+            <a href="renda_fixa.html">Volte ao topo</a>
+            <br>
+            <a href="index.html">Volte para a página principal</a>
+        </footer>
+    </body>
+</html>
