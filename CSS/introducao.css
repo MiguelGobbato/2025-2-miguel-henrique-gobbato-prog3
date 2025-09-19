@@ -1,0 +1,69 @@
+/* Seletores de tipo
+Seletores de classe
+Seletores de ID
+Seletores de atributos
+Seletores de combinadores
+Seletores de pseudoclasse
+Seletores de pseudodoelementos
+Seletores universais 
+
+Serão trabalhadas duas formas distintas com os seletores:
+Definição e implementação
+Chamada do seletor */
+
+
+
+/*SELETORES DE TIPO - SINTAXE
+Selecionam todos os elementos de um determinado tipo de documento HTML*/
+
+p{
+    color: blue
+}
+
+/*SELETORES DE CLASSE - SINTAXE
+O seletor de classe selecionada elementos HTML com um atributo de classe especifico.
+Para selecionar elemntos com uma clsse especifica, escreva um caracter de período (.) seguindo pelo Nome da classe.*/
+
+.nome-classe{
+    font-weight: bold;
+}
+
+/*SELETORES DE ID - SINTAXE
+Os seletores id usa atributos id de um elemento HTML para selecionar um elemento especifico;
+O id de um elemento é unico dentro de uma página, de modo que o seletor de id é usado para  selecionar um elemento unico;
+para selecionar um elemnto de um id especifico, escreva um caracter hash, seguindo de id do elemento.*/
+
+#nome_do_id{
+    text-align: center;
+        color:red;
+}
+
+/*SELETORES DE ATRIBUTOS - SINTAXE
+Os elementos de atributos visam elementos com base em seus atributos e valores de atibutos.*/
+
+input[type="text"]{
+    border-color:red;
+}
+
+/*SELETORES PSEUDOCLASSE - SINTAXE
+Permite estilizar elemntos com base em ssu estado ou condição, como :hover ou focus.
+*/
+a:hover{
+    color:purple
+}
+
+/*SELETORES PSEUDOELEMENTO - SINTAXE
+utilizado para utilizar partes especuificas de um elemneto. como a primeira linha ou a primeira letra.*/
+
+p::first-letter{
+    font-size: 200%;
+}
+
+/*SELETORES UNIVERSAIS -SINTAXE
+O seletor universal é útil para aplicar a todos os elementos dentro de um contxto especifico*/
+*{
+    box-sizing:border-box;
+}
+/*<link rel="stylesheet" href= "../../CSS/lista_HTML/lista_HTML.com">
+Maneira de referenciar um arquivo css externo*/
+
