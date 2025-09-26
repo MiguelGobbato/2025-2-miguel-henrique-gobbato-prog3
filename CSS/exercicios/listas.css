@@ -1,0 +1,79 @@
+h1 {
+    color: blue;
+}
+
+h2 {
+    color: green;
+}
+
+.termo {
+    font-style: bold;
+    color: red;
+}
+
+#introducao {
+    font-style: italic;
+    background-color: lightgrey;
+}
+
+section dd {
+    color: darkblue;
+}
+
+a {
+    color: orange;
+    text-decoration: none;
+}
+
+a:hover {
+    color: purple;
+}
+
+dd::first-letter {
+    font-size: 200%;
+    color: rgb(225, 0, 255);
+}
+
+dt {
+    line-height: 1.6;
+}
+
+dd {
+    line-height: 1.6;
+}
+
+li {
+    color: blue;
+    font-style: italic;
+}
+
+.destaque {
+    color: red;
+    font-weight: bold;
+}
+
+#titulo-principal {
+    color: darkgreen;
+    text-align: center;
+    font-size: 300%;
+}
+
+section li {
+    background-color: rgb(107, 184, 219);
+    padding: 15px;
+}
+
+header[data-info="cabecalho"] {
+    background-color: gray;
+    color: white;
+    font-size: 500%;
+}
+
+li:hover {
+    color: orange;
+}
+
+li::before {
+    content: "🛒";
+    color: gray;
+}
