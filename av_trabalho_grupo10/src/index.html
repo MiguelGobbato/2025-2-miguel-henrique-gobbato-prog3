@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Planejador Financeiro</title>
+    <link rel="stylesheet" href="styles/style.css" />
+</head>
+<body>
+    <header>
+        <h1>Planejador Financeiro</h1>
+    </header>
+    <main>
+        <aside id="calendar">
+            <div class="cal-header">
+                <button id="prev-month" title="Mês anterior">‹</button>
+                <div id="month-year"></div>
+                <button id="next-month" title="Próximo mês">›</button>
+            </div>
+            <div id="calendar-grid"></div>
+            <div class="cal-footer">
+                <button id="today-btn">Hoje</button>
+            </div>
+        </aside>
+
+        <section id="planner">
+            <div id="selected-info">
+                <h2 id="selected-date">Selecione um dia</h2>
+                <div class="balance">
+                    Saldo total: <span id="total-balance">R$ 0,00</span>
+                </div>
+            </div>
+
+            <div id="day-items">
+                <h3>Movimentos do dia</h3>
+                <ul id="items-list"></ul>
+            </div>
+
+            <div id="forms">
+                <form id="expense-form" class="mini-form">
+                    <h4>Adicionar Despesa</h4>
+                    <input type="text" id="expense-name" placeholder="Nome da despesa" required />
+                    <input type="number" step="0.01" id="expense-amount" placeholder="Valor (ex: 50.00)" required />
+                    <button type="submit">Adicionar</button>
+                </form>
+
+                <form id="salary-form" class="mini-form">
+                    <h4>Adicionar Salário</h4>
+                    <input type="number" step="0.01" id="salary-amount" placeholder="Valor do salário" required />
+                    <button type="submit">Adicionar</button>
+                </form>
+
+                <form id="goal-form" class="mini-form">
+                    <h4>Definir Meta</h4>
+                    <input type="text" id="goal-name" placeholder="Nome da meta" required />
+                    <input type="number" step="0.01" id="goal-amount" placeholder="Valor da meta" required />
+                    <button type="submit">Salvar Meta</button>
+                </form>
+            </div>
+
+            <div id="goals">
+                <h3>Metas</h3>
+                <ul id="goals-list"></ul>
+            </div>
+        </section>
+    </main>
+
+    <script src="scripts/utils.js"></script>
+    <script src="scripts/calendar.js"></script>
+    <script src="scripts/planner.js"></script>
+</body>
+</html>
